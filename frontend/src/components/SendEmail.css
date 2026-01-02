@@ -1,0 +1,124 @@
+/* ================= VISIBILITY ================= */
+
+.compose-open {
+  display: block;
+}
+
+.compose-hidden {
+  display: none;
+}
+
+/* ================= WRAPPER ================= */
+
+.compose-wrapper {
+  position: fixed;
+  bottom: 0;
+  right: 24px;
+  width: 520px;
+  background-color: #ffffff;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  animation: slideUp 0.25s ease-out;
+}
+
+/* slide animation */
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* ================= HEADER ================= */
+
+.compose-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background-color: #f2f6fc;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* close button */
+.compose-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.compose-close:hover {
+  background-color: #e5e7eb;
+}
+
+/* ================= FORM ================= */
+
+.compose-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================= INPUTS ================= */
+
+.compose-input {
+  border: none;
+  outline: none;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.compose-input::placeholder {
+  color: #6b7280;
+}
+
+/* ================= TEXTAREA ================= */
+
+.compose-textarea {
+  border: none;
+  outline: none;
+  padding: 12px;
+  font-size: 14px;
+  min-height: 180px;
+  resize: none;
+  line-height: 1.5;
+}
+
+/* ================= FOOTER ================= */
+
+.compose-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 12px;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* ================= SEND BUTTON ================= */
+
+.compose-send {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 6px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.compose-send:hover {
+  background-color: #1557b0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}

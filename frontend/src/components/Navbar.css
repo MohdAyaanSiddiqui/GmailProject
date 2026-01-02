@@ -1,0 +1,111 @@
+/* ================= MAIN NAVBAR ================= */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 16px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* ================= LEFT SECTION ================= */
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+/* Logo + menu */
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ================= ICON BUTTON ================= */
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.icon-btn:hover {
+  background-color: #e5e7eb;
+  transform: scale(1.05);
+}
+
+/* ================= LOGO ================= */
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: 500;
+  color: #5f6368;
+  letter-spacing: 0.2px;
+}
+
+/* ================= SEARCH ================= */
+
+.search-container {
+  flex: 1;
+  max-width: 720px;
+  margin: 0 24px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #eaf1fb;
+  padding: 10px 14px;
+  border-radius: 9999px;
+  transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.search-box:focus-within {
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
+
+.search-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #202124;
+}
+
+/* ================= RIGHT SECTION ================= */
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ================= LOGOUT ================= */
+
+.logout {
+  font-size: 14px;
+  color: #1a73e8;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.logout:hover {
+  opacity: 0.8;
+}

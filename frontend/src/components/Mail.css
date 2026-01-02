@@ -1,0 +1,126 @@
+/* ================= MAIN CONTAINER ================= */
+
+.mail {
+  flex: 1;
+  background: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================= HEADER ================= */
+
+.mail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  background: #ffffff;
+}
+
+/* icon group */
+.mail-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* icon button */
+.icon-btn {
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.icon-btn:hover {
+  background-color: #e5e7eb; /* gray-200 */
+}
+
+/* ================= BODY ================= */
+
+.mail-body {
+  padding: 16px 24px;
+  overflow-y: auto;
+  height: calc(100vh - 60px);
+}
+
+/* ================= SUBJECT ROW ================= */
+
+.mail-subject-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.mail-subject-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mail-subject {
+  font-size: 20px;
+  font-weight: 600;
+  color: #202124;
+}
+
+.mail-label {
+  background: #e8eaed;
+  color: #5f6368;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* ================= DATE ================= */
+
+.mail-date {
+  font-size: 13px;
+  color: #5f6368;
+  white-space: nowrap;
+}
+
+/* ================= TO SECTION ================= */
+
+.mail-to {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.mail-to h1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #202124;
+}
+
+.mail-to span {
+  font-size: 13px;
+  color: #5f6368;
+}
+
+/* ================= MESSAGE ================= */
+
+.mail-message {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #3c4043;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+/* ================= SCROLLBAR (optional, clean) ================= */
+
+.mail-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.mail-body::-webkit-scrollbar-thumb {
+  background-color: #d1d5db;
+  border-radius: 10px;
+}

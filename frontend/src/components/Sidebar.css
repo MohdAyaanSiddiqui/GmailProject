@@ -1,0 +1,82 @@
+/* ================= SIDEBAR ================= */
+
+.sidebar {
+  width: 260px;
+  padding: 12px 8px;
+  background-color: #ffffff;
+  border-right: 1px solid #e5e7eb;
+  height: 100vh;
+}
+
+/* ================= COMPOSE ================= */
+
+.compose-wrapper {
+  margin-bottom: 18px;
+}
+
+.compose-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border-radius: 24px;
+  background-color: #c2e7ff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2937;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.compose-btn:hover {
+  background-color: #b3ddff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* ================= LIST ================= */
+
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/* ================= ITEM ================= */
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 10px 16px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+/* Hover */
+.sidebar-item:hover {
+  background-color: #f3f4f6;
+}
+
+/* Active (Inbox selected) */
+.sidebar-item.active {
+  background-color: #e8f0fe;
+  font-weight: 500;
+}
+
+/* ================= ICON ================= */
+
+.sidebar-icon {
+  font-size: 20px;
+  color: #5f6368;
+}
+
+/* ================= TEXT ================= */
+
+.sidebar-text {
+  font-size: 14px;
+  color: #1f2937;
+  white-space: nowrap;
+}

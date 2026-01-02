@@ -1,0 +1,56 @@
+/* ================= EMAIL ROW ================= */
+
+.email-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.email-row:hover {
+  background: #f7f9fc;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* ================= LEFT SECTION ================= */
+
+.email-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1;
+  min-width: 0; /* IMPORTANT for text ellipsis */
+}
+
+/* ================= SUBJECT ================= */
+
+.email-subject {
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/* ================= MESSAGE PREVIEW ================= */
+
+.email-message {
+  margin-left: 12px;
+  flex: 1;
+  font-size: 14px;
+  color: #5f6368;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ================= DATE ================= */
+
+.email-date {
+  font-size: 12px;
+  color: #5f6368;
+  white-space: nowrap;
+  margin-left: 16px;
+}

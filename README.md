@@ -46,8 +46,8 @@ npm run dev
 </p>
 
 ## Register
-![Register Preview][assets/Register.png]
+
 
 <p align="center">
-  <img src="../frontend/src/assets/Register.png" alt="Login" width="500" />
+  <img src="../frontend/src/assets/Register.png" alt="Register" width="500" />
 </p>

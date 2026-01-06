@@ -39,6 +39,9 @@ npm install
 npm run dev
 
 
-
+## Login
+![Login Preview][assests/Login.png]
+## Register
+![Register Preview][assets/Register.png]
 
 

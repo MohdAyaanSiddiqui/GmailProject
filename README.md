@@ -42,12 +42,12 @@ npm run dev
 
 ## Login
 <p align="center">
-  <img src="../frontend/src/assets/Login.png" alt="Login" width="500" />
+  <img src="frontend/src/assets/Login.png" alt="Login" width="500" />
 </p>
 
 ## Register
 
 
 <p align="center">
-  <img src="../frontend/src/assets/Register.png" alt="Register" width="500" />
+  <img src="frontend/src/assets/Register.png" alt="Register" width="500" />
 </p>

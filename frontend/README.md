@@ -40,8 +40,13 @@ npm run dev
 
 
 ## Login
-![Login Preview][assests/Login.png]
+<p align="center">
+  <img src="../frontend/src/assets/Login.png" alt="Login" width="500" />
+</p>
+
 ## Register
 ![Register Preview][assets/Register.png]
 
-
+<p align="center">
+  <img src="../frontend/src/assets/Register.png" alt="Login" width="500" />
+</p>

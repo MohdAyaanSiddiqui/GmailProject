@@ -2,14 +2,23 @@
 ## Gmail App
 A FullStack gmail Application built using MERN with Auth , inbox management , email sending functionality
 
+### ⚙️ Front-End
+- [React/Redux](https://react.dev/) – Component-based UI library  
+- [Tailwind CSS ](https://tailwindcss.com/) – Utility-first CSS framework   
+- [Axios](https://axios-http.com/) – Promise-based HTTP client  
+- [React Hot Toast](https://react-hot-toast.com/) – Toast notification library  
+- [React Icons](https://React-icons/) – Beautiful & consistent icon toolkit  
+---
 
-## Features
-User Registration and Authentication
-User Profiles 
-Inbox And Sent Emails
-Search for Users And Delete
-Mobile Responsive Design
-...and more!
+
+### ⚙️ Back-End
+- [React-Hot-Toast](https://react-hot-toast.com) - A lightweight , customizable toast notification library
+- [Express.js](https://expressjs.com/) – Node.js web application framework  
+- [Dotenv](https://www.npmjs.com/package/dotenv) – Environment variable management  
+- [CORS](https://expressjs.com/en/resources/middleware/cors.html) – Cross-origin resource sharing middleware  
+- [Axios](https://axios-http.com/) – Also used on server for external API calls  
+
+---
 
 ## Tech Stack
 Frontend: React, Redux ,Vite

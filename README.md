@@ -48,6 +48,7 @@ npm install
 
 npm run dev
 
+## Good Luck 
 
 ## Login
 <p align="center">
@@ -60,3 +61,4 @@ npm run dev
 <p align="center">
   <img src="frontend/src/assets/Register.png" alt="Register" width="500" />
 </p>
+

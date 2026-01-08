@@ -23,7 +23,7 @@ A FullStack gmail Application built using MERN with Auth , inbox management , em
 ## Tech Stack
 Frontend: React, Redux ,Vite
 Backend: Node.js, Express.js,
-Database: MongoDB
+Database: MongoDB Atlas
 Authentication: JSON Web Tokens (JWT)
 
 ## How To Run This Application

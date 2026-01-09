@@ -25,28 +25,27 @@ Frontend: React, Redux ,Vite
 Backend: Node.js, Express.js,
 Database: MongoDB Atlas
 Authentication: JSON Web Tokens (JWT)
-
-## How To Run This Application
-Clone The Repo
-
-## Backend
-cd backend
-npm install
-
 ## Environment variable
 ##Create A .env.example file inside the backend
 PORT=xxx
 MONGO_URI=your_mongodb-connection_string
 JWT_SECRET=Your jwt_Secret
 
-npm run dev
+## How To Run This Application
+Clone The Repo
 
+## Backend
+--cd backend
+
+--npm install
+
+--nodemon index.js
 
 ## FrontEnd
-cd backend
-npm install
+--cd backend
+--npm install
 
-npm run dev
+--npm run dev
 
 ## Good Luck 
 
@@ -69,7 +68,7 @@ npm run dev
 </p>
 
 
-
+## Emails
 <p align="center">
   <img src="frontend/src/assets/Two.png" alt="Register" width="500" />
 </p>

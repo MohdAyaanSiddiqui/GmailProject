@@ -62,3 +62,14 @@ npm run dev
   <img src="frontend/src/assets/Register.png" alt="Register" width="500" />
 </p>
 
+
+## User Interface
+<p align="center">
+  <img src="frontend/src/assets/One.png" alt="Register" width="500" />
+</p>
+
+
+
+<p align="center">
+  <img src="frontend/src/assets/Two.png" alt="Register" width="500" />
+</p>

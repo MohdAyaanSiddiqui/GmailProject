@@ -5,7 +5,7 @@ export const createEmail = async (req, res) => {
         console.log("BODY:", req.body);
         console.log("USER ID:", req.id);
 
-        const { to, subject, message } = req.body || {};
+        const { to, subject, message} = req.body || {};
 
         if (!req.id) {
             return res.status(401).json({
@@ -25,7 +25,7 @@ export const createEmail = async (req, res) => {
             to,
             subject,
             message,
-            userId: req.id
+            userId: req.id,
         });
 
         return res.status(201).json({

@@ -23,16 +23,17 @@ const SignUp = () => {
                 headers: {
                     'Content-Type': "application/json"
                 },
-                withCredentials: true
+                //withCredentials: true
             });
             if (res.data.success) {
+                toast.success(res.data.message)
                 navigate("/login");
-                toast.success(res.data.message);
             }
 
         } catch (error) {
-            console.log(error);
-            toast.error(error.response.data.message)
+            console.log("Axios Error",error);
+            const message = error.response?.data?.message || error.message || "Server Not Responding";
+            toast.error(message)
         }
     }
     return (

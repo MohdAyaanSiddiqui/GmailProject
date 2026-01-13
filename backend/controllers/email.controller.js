@@ -17,7 +17,7 @@ export const createEmail = async (req, res) => {
         if (!to || !subject || !message) {
             return res.status(400).json({
                 success: false,
-                message: "All fields are required"
+                message: "All fields are required here..."
             });
         }
 
@@ -45,13 +45,13 @@ export const deleteEmail = async (req, res) => {
     try {
         const emailId = req.params.id;
 
-        if (!emailId) return res.status(400).json({ message: "Email Id Requried" });
+        if (!emailId) return res.status(400).json({ message: "Email Id Requried..." });
 
         const email = await Email.findByIdAndDelete(emailId);
 
-        if (!email) return res.status(404).json({ message: "Email Not Found" });
+        if (!email) return res.status(404).json({ message: "Email Not Found...." });
 
-        return res.status(200).json({ message: "Deleted Successfully" })
+        return res.status(200).json({ message: "Deleted Successfully..." })
     } catch (error) {
         console.log(error)
     }

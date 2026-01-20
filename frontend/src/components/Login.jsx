@@ -61,7 +61,7 @@ const Login = () => {
                 {state === "login" ? "Login" : "Sign up"}
             </h1>
 
-            <p className="text-gray-400 text-sm mt-2">Please sign in to continue</p>
+            <p className="text-gray-400 text-sm mt-2">Please Login to continue</p>
 
             {state !== "login" && (
                 <div className="flex items-center mt-6 w-full bg-gray-800 border border-gray-700 h-12 rounded-full overflow-hidden pl-6 gap-2 ">

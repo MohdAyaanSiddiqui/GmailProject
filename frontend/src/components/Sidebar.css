@@ -2,10 +2,11 @@
 
 .sidebar {
   width: 260px;
-  height: 100vh;
   background: #0f172a;
   padding: 16px;
   color: #e5e7eb;
+
+ 
 }
 
 /* Compose Button */

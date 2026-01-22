@@ -22,3 +22,8 @@ body {
   flex-direction: column;
   background-color: #ffffff;
 }
+.mail-container{
+  flex: 1;
+  height: calc(100vh - 64px);
+  overflow-y: auto;
+}
